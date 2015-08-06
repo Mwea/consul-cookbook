@@ -107,7 +107,7 @@ times we need to tell Consul to actually reload configurations. If
 there are several definitions this may save a little time off your
 Chef run.
 
-## Execute
+### Execute
 The command-line agent provides a mechanism to facilitate remote
 execution. For example, this can be used to run the `uptime` command
 across your fleet of nodes which are hosting a particular API service.

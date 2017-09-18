@@ -103,6 +103,11 @@ module ConsulCookbook
           service.provider(:sysvinit)
         end
       end
+
+      def whyrun_supported?
+        true
+      end
+
     end
   end
 end
